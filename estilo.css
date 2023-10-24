@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(182, 182, 243);
+}
+
+
+h1 {
+    text-align: center;
+    padding: 10px;
+    background-color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+section {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+    top: 40px;
+}
+
+
+.nomes {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer {
+    position: relative;
+    top: 50px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
